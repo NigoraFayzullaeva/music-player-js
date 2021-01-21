@@ -14,7 +14,7 @@ const nextBtn = document.getElementById('next');
 const songs = [
   {
     name: 'beatxxx',
-    displayName: 'Beat xxx',
+    displayName: 'Angel beat',
     artist: 'Shiloh Dynasty',
   },
   {
@@ -30,6 +30,11 @@ const songs = [
   {
     name: 'singtoyou',
     displayName: 'Sing to you',
+    artist: 'Shiloh Dynasty',
+  },
+  {
+    name: 'iknowyousowell',
+    displayName: 'I know you so well',
     artist: 'Shiloh Dynasty',
   },
 ];
