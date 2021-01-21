@@ -9,8 +9,8 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #252525;
   display: flex;
+  background: #000;
   justify-content: center;
   align-items: center;
   font-family: Spartan, sans-serif;
@@ -23,6 +23,7 @@ body {
   background: #e7e7e7;
   border-radius: 20px;
   box-shadow: 0 15px 30px 5px rgba(0, 0, 0, 0.3);
+  z-index: 99;
 }
 
 .img-container {
@@ -127,4 +128,12 @@ h3 {
     top: -10px;
     left: 100px;
   }
+}
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
