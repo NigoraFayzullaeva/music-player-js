@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="player-container">
+        <div class="img-container">
+            <img src="img/jacinto-1.jpg" alt="">
+        </div>
+        <h2 id="title">lofi hip hop mix</h2>
+        <h3 id="artist">Shiloh</h3>
+        <audio src="music/beatxxx.mp3"></audio>
+        <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration-wrapper">
+                <span id="current-time">0:00</span>
+                <span id="duration">2:05</span>
+            </div>
+        </div>
+        <div class="player-controls">
+            <i class="fas fa-backward" id="prev" title="Previous"></i>
+            <i class="fas fa-play main-button" id="play" title="Play"></i>
+            <i class="fas fa-forward" id="next" title="Next"></i>
+        </div>
+    </div>
     <!-- Script -->
     <script src="script.js"></script>
 </body>
