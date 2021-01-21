@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+/* Images created by: https://unsplash.com/@pawel_czerwinski */
+
+@import url("https://fonts.googleapis.com/css?family=Spartan:400,700&display=swap");
 
 html {
   box-sizing: border-box;
@@ -7,15 +9,15 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  background: #c9ced3;
+  background: #252525;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'Noto Sans JP', sans-serif;
+  font-family: Spartan, sans-serif;
   font-size: 12px;
 }
 
-.player-container{
+.player-container {
   height: 500px;
   width: 400px;
   background: #e7e7e7;
@@ -24,13 +26,14 @@ body {
 }
 
 .img-container {
-  height: 300px;
   width: 300px;
+  height: 300px;
   position: relative;
   top: -50px;
   left: 50px;
 }
-.img-container img{
+
+.img-container img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -65,8 +68,7 @@ h3 {
   background: #242323;
   border-radius: 5px;
   height: 100%;
-  /* change this to show progress */
-  width: 66%;
+  width: 0%;
   transition: width 0.1s linear;
 }
 
@@ -93,7 +95,7 @@ h3 {
   user-select: none;
 }
 
-.fas:hover{
+.fas:hover {
   filter: brightness(80%);
 }
 
@@ -105,7 +107,7 @@ h3 {
 
 /* Media Query: iPhone (Vertical) */
 @media screen and (max-width: 376px) {
-  .player{
+  .player-container {
     width: 95vw;
   }
 
