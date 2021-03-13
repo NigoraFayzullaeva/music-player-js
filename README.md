@@ -7,4 +7,4 @@ music player with js 🎵
 <br>
 • User can click the progress bar to seek different parts of the track.
 <br>
-LIVE <a href="https://nigorafayzullaeva.github.io/music-player-js/">HERE</a>
+<a href="https://nigorafayzullaeva.github.io/music-player-js/">LIVE HERE</a>
