@@ -1,10 +1,4 @@
-# music-player-js
-music player with js 🎵
-<br>
-- A music player application using HTML5, CSS3 and Javascript and built UI for next button, previous button, pause, play and also displays the display of the current song playing.
-<br>
-• Sleek and modern-looking audio player.
-<br>
-• User can click the progress bar to seek different parts of the track.
-<br>
-<a href="https://nigorafayzullaeva.github.io/music-player-js/">LIVE HERE</a>
+<h2>☑️ What I have created?</h2>
+<p>A music player application using HTML5, CSS3 and Javascript and built UI for next button, previous button, pause, play and also displays the display of the 
+<h3><a href="https://nigorafayzullaeva.github.io/music-player-js/">Live Demo</a></h3>
+
